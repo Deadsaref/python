@@ -5,14 +5,14 @@ def user(name=None, surname=None, year=None, city=None, email=None, phone=None):
     surname = input('Введите фамилию: \n')
     while year is None:
         try:
-            year = int(input('Введите год рождения: \n'))
+            year = int(input('Введите год рождения числом: \n'))
         except ValueError:
             print('Укажите год рождения числом (пример 1996)')
     city = input('Введите город проживания: \n')
     email = input('Укажите свой e-mail: \n')
     while phone is None:
         try:
-            phone = int(input('Укажите свой номер телефона: \n'))
+            phone = int(input('Укажите свой номер телефона числом: \n'))
         except ValueError:
             print('Неверный формат телефона')
 

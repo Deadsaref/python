@@ -1,6 +1,6 @@
 def my_func(x, y):
     if x > 0 and y < 0 and type(y) == int:
-        y = abs(y)
+        # y = abs(y)
         result_1 = x**y
         print(f'Результат первым способом {result_1}')
 

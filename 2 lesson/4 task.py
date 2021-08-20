@@ -5,4 +5,4 @@ for id, word in enumerate(message, 1) :
     if len(word) <= 10:
         print(id, word)
     else:
-        print(id, word[0:11])
+        print(id, word[0:10])
